@@ -1,0 +1,24 @@
+{
+  "name": "parcel-plugin-goodie-bag",
+  "version": "0.0.0",
+  "description": "provides the Promise and fetch goodies needed for IE(11) support w/ parcel bundle loading",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "Eric McCormick (https://edm00se.codes/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edm00se/parcel-plugin-goodie-bag.git"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "es6-promise": "^4.2.5",
+    "unfetch": "^4.0.1"
+  }
+}

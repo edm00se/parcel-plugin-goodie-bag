@@ -30,12 +30,14 @@ function injectGoodies(bund) {
   const content = fs.readFileSync(filePath, 'utf8');
   const $ = cheerio.load(content);
 
-  $('head').append(
-    `<script src="${finalResolvedGoodieBagDestination}"></script>`
-  );
-  fs.writeFileSync(filePath, $.html());
-
-  copyGoodiesToDist(bundleDir);
+  if(!$(`script[src="${finalResolvedGoodieBagDestination}"]`).length > 0){
+    $('head').prepend(
+      `<script src="${finalResolvedGoodieBagDestination}"></script>`
+    );
+    fs.writeFileSync(filePath, $.html());
+  
+    copyGoodiesToDist(bundleDir);
+  }
 }
 
 function copyGoodiesToDist(outDir) {

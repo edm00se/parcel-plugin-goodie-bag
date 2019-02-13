@@ -1,6 +1,8 @@
 # parcel-plugin-goodie-bag
 
-Brings a high level polyfill for `Promise` and `fetch`.
+A polyfill for `Promise` and `fetch` to keep Parcel working for those without it.
+
+[Looking at you Internet Explorer](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/The-perils-of-using-Internet-Explorer-as-your-default-browser/ba-p/331732).
 
 ## Why This Is Needed
 

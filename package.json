@@ -1,7 +1,7 @@
 {
   "name": "parcel-plugin-goodie-bag",
   "version": "1.0.1",
-  "description": "provides the Promise and fetch goodies needed for IE(11) support w/ parcel bundle loading",
+  "description": "a polyfill for `Promise` and `fetch` to keep Parcel working for those without it",
   "main": "index.js",
   "files": [
     "index.js"

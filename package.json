@@ -19,6 +19,6 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "es6-promise": "^4.2.5",
-    "unfetch": "^4.0.1"
+    "unfetch": "^4.1.0"
   }
 }

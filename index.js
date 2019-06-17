@@ -14,8 +14,16 @@ const goodieBagHeaderComment = `/**
 
 module.exports = function(bundler) {
   bundler.on('bundled', bund => {
-    if (bund.type === 'html' && bund.entryAsset.basename === 'index.html') {
-      injectGoodies(bund);
+    if (bund.type === 'html') {
+      injectGoodies(bund)
+    }
+
+    if (bund.childBundles && bund.childBundles.size) {
+      for (const childBund of bund.childBundles) {
+        if (childBund.type === 'html') {
+          injectGoodies(childBund)
+        }
+      }
     }
   });
 };

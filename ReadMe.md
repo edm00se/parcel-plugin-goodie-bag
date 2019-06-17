@@ -32,7 +32,7 @@ I made use of [a simple reproducible repository](https://github.com/edm00se/parc
 
 ## Contributing
 
-If you see something fundamentally wrong with this, feel free to submit a PR.
+If you have something to contribute, please do. If you're uncertain as to whether or not to open a PR, feel free to ask; just open an issue and mark that it's a question.
 
 ## History
 

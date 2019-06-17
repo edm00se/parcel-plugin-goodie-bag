@@ -26,6 +26,16 @@
         "review",
         "userTesting"
       ]
+    },
+    {
+      "login": "Joe-Withey",
+      "name": "Joe Withey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12202750?v=4",
+      "profile": "https://github.com/Joe-Withey",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7

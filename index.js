@@ -19,7 +19,7 @@ module.exports = function(bundler) {
     }
 
     if (bund.childBundles && bund.childBundles.size) {
-      for (const childBund of bund.childBundles) { // eslint-disable-line no-restricted-syntax
+      for (const childBund of bund.childBundles) {
         if (childBund.type === 'html') {
           injectGoodies(childBund)
         }

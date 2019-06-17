@@ -34,12 +34,21 @@ I made use of [a simple reproducible repository](https://github.com/edm00se/parc
 
 If you have something to contribute, please do. If you're uncertain as to whether or not to open a PR, feel free to ask; just open an issue and mark that it's a question.
 
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
 ## History
 
 Parcel is an amazing bundler with superpowers. The fact that my ability to support IE(11), a requirement for my day job, was hampered by this limitation of a multiple bundle scenario meant that I had to solve the problem myself. It is my hope that one day the configuration of Parcel will allow for the surfacing of base level APIs, such as `Promise` and `fetch` to make this plugin unnecessary. Until then, I'll keep this available to provide some sanity.
 
 ## Credits
-
 - [parcel](https://parceljs.org/)
 
 ## License

@@ -20,5 +20,11 @@
     "cheerio": "^1.0.0-rc.3",
     "es6-promise": "^4.2.8",
     "unfetch": "^4.1.0"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.7.0"
+  },
+  "scripts": {
+    "contributors": "all-contributors"
   }
 }

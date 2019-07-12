@@ -22,6 +22,8 @@ No additional configuration required. If your app is being bundled by parcel and
 - a "goodie bag" script file, placed in the destination directory (`outDir` to parcel, defaults to `dist`)
 - the script tag will respect your configured `publicUrl` option with Parcel (e.g.- prefixed with default `/` or no root slash in the case of `.`)
 
+Note: If you're not processing your `index.html` file through parcel, for example merely bundling the JS directly, I believe you're missing out on some of the super powers of parcel. However, if that's your workflow and you're missing out on this plugin's functionality, please consult the discussion and resolution outlined [in this issue][non-html-support].
+
 ## In Action
 
 I made use of [a simple reproducible repository](https://github.com/edm00se/parcel-ie11-issue-demo) I had set up for tracking this issue.
@@ -61,3 +63,5 @@ Parcel is an amazing bundler with superpowers. The fact that my ability to suppo
 ## License
 
 MIT
+
+[non-html-support]: https://github.com/edm00se/parcel-plugin-goodie-bag/issues/2#issuecomment-502219004

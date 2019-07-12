@@ -36,6 +36,16 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "klausbreyer",
+      "name": "Klaus Breyer",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/32771?v=4",
+      "profile": "https://v01.io",
+      "contributions": [
+        "bug",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7

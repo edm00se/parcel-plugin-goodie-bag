@@ -2,12 +2,20 @@ const fs = require('fs');
 const path = require('path');
 const URL = require('url');
 const cheerio = require('cheerio');
+
+const vendorLibVesrions = {
+  'es6-promise': require('es6-promise/package.json').version,
+  unfetch: require('unfetch/package.json').version
+};
+
 const goodieBagFileName = 'goodie-bag.min.js';
 const goodieBagHeaderComment = `/**
 * parcel-plugin-goodie-bag
 * 
 * Provides a high-level polyfill to both the Promise and fetch APIs, to keep parcel working on IE(11).
 * This works around: https://github.com/parcel-bundler/parcel/issues/2364
+* 
+* Built with es6-promise@${vendorLibVesrions["es6-promise"]} and unfetch@${vendorLibVesrions.unfetch}.
 *  
 * src: https://github.com/edm00se/parcel-plugin-goodie-bag
 */`;

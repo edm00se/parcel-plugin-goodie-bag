@@ -1,8 +1,10 @@
 # parcel-plugin-goodie-bag
 
-A polyfill for `Promise` and `fetch` to keep Parcel working for those without it.
+A polyfill for `Promise` and `fetch` **for Parcel v1**, to keep it working for those browsers without it.
 
 [Looking at you Internet Explorer](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/The-perils-of-using-Internet-Explorer-as-your-default-browser/ba-p/331732).
+
+## [Parcel v1 Only!](https://github.com/edm00se/parcel-plugin-goodie-bag/issues/18#issuecomment-803409442)
 
 ## Why This Is Needed
 

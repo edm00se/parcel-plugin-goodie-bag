@@ -1,3 +1,7 @@
+# Archived
+
+Per [issue #55](https://github.com/edm00se/parcel-plugin-goodie-bag/issues/55), this repository is being archived.
+
 # parcel-plugin-goodie-bag
 
 A polyfill for `Promise` and `fetch` **for Parcel v1**, to keep it working for those browsers without it.
